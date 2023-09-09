@@ -1,0 +1,110 @@
+#
+# Copyright (C) 2023+ Firelands Core Project , released under AGPL v3 license: https://github.com/FirelandsProject/firelands-cata/blob/master/LICENSE
+#
+
+[worldserver]
+
+###################################################################################################
+#Consolidated Skip Starter Module
+#################################
+#
+#
+#    Consolidated.Skip.Starter.Announce.enable
+#         Description: Announces Module when player logs in.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+Consolidated.Skip.Starter.Announce.enable = 1
+
+#    Skip.DeathKnight.Starter.Enable
+#         Active Module for all new accounts regardless of account level. Instantly Skip Starter Zone
+#         on DK Creation.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+Skip.Deathknight.Starter.Enable = 0
+
+#    GM.Skip.Deathknight.Starter.Enable
+#         Active Module for all new accounts of a GM account level ONLY. Instantly Skip Starter Zone
+#         on DK Creation.
+#         Ensure you have Skip.Deathknight.Starter.Enable set to 0 if using this conf.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+GM.Skip.Deathknight.Starter.Enable = 0
+
+#    Skip.Deathknight.Start.Level
+#         Adjusted Death Knight Start Level if module is used.
+#         Default:    58 - (Default)
+#
+
+Skip.Deathknight.Start.Level = 58
+
+#    Skip.Deathknight.Optional.Enable
+#    Enables optional to skip when talking to lich king on first creation of dk.
+#    Default: 1 - (Active)
+
+Skip.Deathknight.Optional.Enable = 1
+
+#    Skip.Worgan.Starter.Enable
+#         Active Module for all new accounts regardless of account level. Instantly Skip Starter Zone
+#         on Worgan Creation.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+Skip.Worgan.Starter.Enable = 0
+
+#    GM.Skip.Worgan.Starter.Enable
+#         Active Module for all new accounts of a GM account level ONLY. Instantly Skip Starter Zone
+#         on Worgan Creation.
+#         Ensure you have Skip.Worgan.Starter.Enable set to 0 if using this conf.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+GM.Skip.Worgan.Starter.Enable = 0
+
+#    Skip.Worgan.Start.Level
+#         Adjusted Worgan Start Level if module is used.
+#         Default:    16 - (Default)
+#
+
+Skip.Worgan.Start.Level = 16
+
+#    Skip.Worgan.Optional.Enable
+#    Enables optional to skip when talking to  Prince Liam on first creation of Worgan.
+#    Default: 1 - (Active)
+
+Skip.Worgan.Optional.Enable = 1
+
+#    Skip.Goblin.Starter.Enable
+#         Active Module for all new accounts regardless of account level. Instantly Skip Starter Zone
+#         on Goblin Creation.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+Skip.Goblin.Starter.Enable = 0
+
+#    GM.Skip.Goblin.Starter.Enable
+#         Active Module for all new accounts of a GM account level ONLY. Instantly Skip Starter Zone
+#         on Goblin Creation.
+#         Ensure you have Skip.Goblin.Starter.Enable set to 0 if using this conf.
+#         Default:    0 - (Disabled)
+#                     1 - (Enabled)
+
+GM.Skip.Goblin.Starter.Enable = 0
+
+#    Skip.Goblin.Start.Level
+#         Goblin Start Level if module is used.
+#         Default:    16 - (Default)
+#
+
+Skip.Goblin.Start.Level = 16
+
+#    Skip.Goblin.Optional.Enable
+#    Enables optional to skip when talking to Sassy Hardwench on first creation of Goblin.
+#    Default: 1 - (Active)
+
+Skip.Goblin.Optional.Enable = 1
+
+#
+###################################################################################################
