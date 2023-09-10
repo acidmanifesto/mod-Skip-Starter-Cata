@@ -17,7 +17,7 @@ The ability to skip the starter area either instantly or optional via conf for t
 6) Start Server   
 
 ## Additional Information
-- Conf is reloadable with a .reload config cmd but you will need to re-enter the instance for the affects to reflect.
+- Conf is reloadable with a .reload config cmd.
   
 ## Credits
 
